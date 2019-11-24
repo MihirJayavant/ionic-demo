@@ -9,11 +9,6 @@ export const Startup = (props: RouterProps) => {
 
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Spender</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent className="ion-padding">
         <div></div>
       </IonContent>

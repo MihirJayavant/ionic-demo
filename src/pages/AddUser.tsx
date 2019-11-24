@@ -5,9 +5,6 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
-  IonFab,
-  IonFabButton,
-  IonIcon,
   IonGrid,
   IonRow,
   IonCol,
@@ -16,18 +13,21 @@ import {
   IonLabel,
   IonButton
 } from '@ionic/react'
-import { add } from 'ionicons/icons'
+import { RouterProps } from 'react-router'
 
-export const AddUser: React.FC = () => {
+export const AddUser = (props: RouterProps) => {
+  const onCLick = () => {
+    props.history.push('/home')
+  }
+
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Spender</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent className="ion-padding">
-        <IonGrid>
+      <IonContent>
+        <div className="hero">
+          <div className="title">Spender</div>
+          <div className="sub-title">Analyz your expenditure</div>
+        </div>
+        <IonGrid className="ion-padding">
           <IonRow>
             <IonCol size="12">
               <IonItem>
@@ -42,7 +42,7 @@ export const AddUser: React.FC = () => {
               </IonItem>
             </IonCol>
             <IonCol size="12">
-              <IonButton type="submit" color="success" expand="full" size="large">
+              <IonButton type="button" color="success" expand="full" size="large" onClick={onCLick}>
                 Next
               </IonButton>
             </IonCol>
