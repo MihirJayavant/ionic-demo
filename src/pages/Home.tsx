@@ -1,14 +1,5 @@
-import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-  IonFab,
-  IonFabButton,
-  IonIcon
-} from "@ionic/react";
-import React from "react";
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonFab, IonFabButton, IonIcon } from '@ionic/react'
+import React from 'react'
 
 export const Home: React.FC = () => {
   return (
@@ -27,6 +18,5 @@ export const Home: React.FC = () => {
         </IonFab>
       </IonContent>
     </IonPage>
-  );
-};
-
+  )
+}
