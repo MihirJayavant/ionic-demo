@@ -1,18 +1,5 @@
 import React from 'react'
-import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-  IonGrid,
-  IonRow,
-  IonCol,
-  IonInput,
-  IonItem,
-  IonLabel,
-  IonButton
-} from '@ionic/react'
+import { IonContent, IonPage, IonGrid, IonRow, IonCol, IonInput, IonItem, IonLabel, IonButton } from '@ionic/react'
 import { RouterProps } from 'react-router'
 
 export const AddUser = (props: RouterProps) => {
@@ -25,7 +12,7 @@ export const AddUser = (props: RouterProps) => {
       <IonContent>
         <div className="hero">
           <div className="title">Spender</div>
-          <div className="sub-title">Analyz your expenditure</div>
+          <div className="sub-title">Analyze your expenditure</div>
         </div>
         <IonGrid className="ion-padding">
           <IonRow>

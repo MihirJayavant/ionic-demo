@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react'
+import { IonContent, IonPage } from '@ionic/react'
 import { RouterProps } from 'react-router'
 
 export const Startup = (props: RouterProps) => {
