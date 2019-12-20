@@ -1,5 +1,7 @@
 {
   "name": "spender",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }

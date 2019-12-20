@@ -1,0 +1,8 @@
+{
+  "appId": "com.mihirjayavant.spender",
+  "appName": "spender",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {}
+}

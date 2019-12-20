@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">spender</string>
+    <string name="title_activity_main">spender</string>
+    <string name="package_name">com.mihirjayavant.spender</string>
+    <string name="custom_url_scheme">com.mihirjayavant.spender</string>
+</resources>

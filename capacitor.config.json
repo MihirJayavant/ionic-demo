@@ -1,0 +1,9 @@
+{
+  "appId": "com.mihirjayavant.spender",
+  "appName": "spender",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "linuxAndroidStudioPath": "/snap/android-studio/81/android-studio/bin/studio.sh",
+  "cordova": {}
+}
