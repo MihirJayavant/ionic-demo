@@ -1611,27 +1611,28 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.7":
-  version "4.11.7"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.7.tgz#8241c462a2917367e07a30fe66ce9a4be67bf60a"
-  integrity sha512-cYHFO703o51JvDqbYoCK1Ifd6M6wr+sFn38R5jTlkAYGueltq+GjsvQXzPqc7x2mx+yhTbo+Lf20XdpM+4mpVA==
+"@ionic/core@5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-5.2.2.tgz#f382b0df85158d98b4a64013d6bb52899b85bbea"
+  integrity sha512-KUGJIWTcKuMGmLhmVpmszeDHtGoDmDWpR9mXnw/J+GTlS9Ix/b5mIslPbhsrJyI/qR449lL+cAvjbeeoVRUjhg==
   dependencies:
-    ionicons "^4.6.3"
+    ionicons "^5.0.1"
     tslib "^1.10.0"
 
-"@ionic/react-router@^4.11.7":
-  version "4.11.7"
-  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-4.11.7.tgz#a779ae07a255fcca480d31175bd6629e07918fd2"
-  integrity sha512-8dl2y0xdTZOLBjOrEJD24g1Q+mQWXC1eIwmpghziqub+z3K4VkfyZ1eLpxjK69IhkoW8ebdT0hrDsfYJnK009g==
+"@ionic/react-router@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-5.2.2.tgz#4b57f0a2ce2579255e71366db6f47d5c2c18f2bd"
+  integrity sha512-VYqHGeu463PorZVt+wZfRdGIWliQ2B8XzfcpRlHD7+hhQ2Ygwk5QrH7bBrXbnlyalSm7ppKxiHz3IHgUnKswpg==
   dependencies:
     tslib "*"
 
-"@ionic/react@^4.11.7":
-  version "4.11.7"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.7.tgz#1bb778c767980c0c7f8188bc1f0f12f1f68e66bd"
-  integrity sha512-rZv72oCGc/uO15KZXMr24qC3jaMrlIbAbfxyiIOxwtE4ura3ZybiHQRjGAiS75OcSRxvwpNG2BqWz6s/13yDlQ==
+"@ionic/react@^5.2.2":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-5.2.2.tgz#258835fb537ad76ac211d438b118833b5b042cb1"
+  integrity sha512-KfnpPPQcDbAB9eBCHn8mnJdHkyZMLev9oE1Hf0d1yoKNon/p7uZOOqUmX9XSb9q3Y+4PxxvxVdXosNkAG/FyDQ==
   dependencies:
-    "@ionic/core" "4.11.7"
+    "@ionic/core" "5.2.2"
+    ionicons "^5.0.1"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -5845,10 +5846,10 @@ invert-kv@^2.0.0:
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-2.0.0.tgz#7393f5afa59ec9ff5f67a27620d11c226e3eec02"
   integrity sha512-wPVv/y/QQ/Uiirj/vh3oP+1Ww+AWehmi1g5fFWGPF6IpCBCDVrhgHRMvrLfdYcwDh3QJbGXDW4JAuzxElLSqKA==
 
-ionicons@^4.6.3:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-4.6.3.tgz#e4f3a3e9b66761eb8c0db27798cc1a8ce97777d2"
-  integrity sha512-cgP+VIr2cTJpMfFyVHTerq6n2jeoiGboVoe3GlaAo5zoSBDAEXORwUZhv6m+lCyxlsHCS3nqPUE+MKyZU71t8Q==
+ionicons@^5.0.1, ionicons@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-5.1.0.tgz#abb162eeeb3fc808d0873fd0b4345c62cbc9c5d0"
+  integrity sha512-GCUxQXXfeQzGA+cS5x6XNHpf9QNdieiQBXCMFN8foV9tDFNDgmiVZRuLIoR8dfrslshRvRbkBICQDJ37ChuwTw==
 
 ip-regex@^2.1.0:
   version "2.1.0"

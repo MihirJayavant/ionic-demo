@@ -19,13 +19,13 @@ export const AddUser = (props: RouterProps) => {
             <IonCol size="12">
               <IonItem>
                 <IonLabel position="floating">Name</IonLabel>
-                <IonInput type="text" required></IonInput>
+                <IonInput type="text" required={true} />
               </IonItem>
             </IonCol>
             <IonCol size="12">
               <IonItem>
                 <IonLabel position="floating">Monthly Income</IonLabel>
-                <IonInput type="number" required></IonInput>
+                <IonInput type="number" required={true} />
               </IonItem>
             </IonCol>
             <IonCol size="12">

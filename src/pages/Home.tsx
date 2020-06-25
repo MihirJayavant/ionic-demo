@@ -9,7 +9,7 @@ import {
   IonFabButton,
   IonIcon,
   IonList,
-  IonItem
+  IonItem,
 } from '@ionic/react'
 import { add } from 'ionicons/icons'
 import { ListItem } from '../components'
@@ -25,10 +25,10 @@ export const Home: React.FC = () => {
       <IonContent className="ion-padding">
         <IonList>
           <IonItem>
-            <ListItem id={1} title="Netflix" description="Media content" up={true}></ListItem>
+            <ListItem id={1} title="Netflix" description="Media content" up={true} />
           </IonItem>
           <IonItem>
-            <ListItem id={2} title="Hotstar" description="Media content" up={false}></ListItem>
+            <ListItem id={2} title="Hotstar" description="Media content" up={false} />
           </IonItem>
         </IonList>
 
