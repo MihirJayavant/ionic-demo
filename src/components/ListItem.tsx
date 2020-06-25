@@ -14,12 +14,17 @@ export const ListItem = (props: IProps) => {
     <IonGrid>
       <IonRow>
         <IonCol size="auto">
-          <IonIcon size="large" color={props.up ? 'success' : 'danger'} icon={props.up ? arrowUp : arrowDown}></IonIcon>
+          <IonIcon size="large" color={props.up ? 'success' : 'danger'} icon={props.up ? arrowUp : arrowDown} />
         </IonCol>
         <IonCol>
           <IonLabel>
             <h2>{props.title}</h2>
             <p>{props.description}</p>
+          </IonLabel>
+        </IonCol>
+        <IonCol size="auto">
+          <IonLabel>
+            <h1>$ 10</h1>
           </IonLabel>
         </IonCol>
       </IonRow>
