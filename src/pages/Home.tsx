@@ -13,8 +13,13 @@ import {
 } from '@ionic/react'
 import { add } from 'ionicons/icons'
 import { ListItem } from '../components'
+import { RouterProps } from 'react-router'
 
-export const Home: React.FC = () => {
+export const Home = (props: RouterProps) => {
+  const addTransaction = () => {
+    props.history.push('/addTransaction')
+  }
+
   return (
     <IonPage>
       <IonHeader>
@@ -33,7 +38,7 @@ export const Home: React.FC = () => {
         </IonList>
 
         <IonFab vertical="bottom" horizontal="end" slot="fixed">
-          <IonFabButton>
+          <IonFabButton onClick={addTransaction}>
             <IonIcon icon={add} />
           </IonFabButton>
         </IonFab>

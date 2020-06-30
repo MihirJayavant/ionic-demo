@@ -3,7 +3,7 @@ export enum TransactionType {
   Debited
 }
 
-export interface ITransactionBase {
+export interface ITransaction {
   id: number
   title: string
   description: string
@@ -13,12 +13,12 @@ export interface ITransactionBase {
   userId: number
 }
 
-export interface IDebit extends ITransactionBase {
+export interface IDebit extends ITransaction {
   category: string
   type: TransactionType.Debited
 }
 
-export interface ICredit extends ITransactionBase {
+export interface ICredit extends ITransaction {
   type: TransactionType.Credited
 }
 

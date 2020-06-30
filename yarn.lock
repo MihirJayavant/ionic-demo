@@ -1532,15 +1532,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@capacitor/android@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-1.4.0.tgz#ce000d240e599298cd95b8f48b79157e06b732dc"
-  integrity sha512-J+QosCfRFw6sm8j/g0RAMwM9B01oMbRcbss6HkSggPe3OqDm+hdSDjNzU7BHDnRxnSlucb5N6xmGuXz2u7/piA==
+"@capacitor/android@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.2.0.tgz#89410245a173288e6fe9017b0d39f6fdbfae51e9"
+  integrity sha512-mFRGfaA/crSHH6P8PYAIDBXL4LFCsjgRhSqzfTMo1+PPnDsZ77Wy01FtB1EN5JVCRgb+Y1YIChcbf5F2Qn5ZjQ==
 
-"@capacitor/cli@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-1.4.0.tgz#09c95aa6b1eefd0b6c9c454bf741efb792e566e2"
-  integrity sha512-jY4FQ7T5XW3XXYeh2asTBO1egRmGC4cAH3WE6TUn6STvfsD/BMbfEdNTFLErA8e2huP5dzI6PHttGEldz4MR6Q==
+"@capacitor/cli@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-2.2.0.tgz#477b086eff9e158aef72fb3b2807007425d4b951"
+  integrity sha512-JyqBixUOIfJ1FEuT6v9B9yoejL1+Y7tk/eTiKXs4wUOSb2RTwbXUfy4CozteaY72UP9TvvL+duXk3qeyny7/vQ==
   dependencies:
     chalk "^2.3.0"
     commander "^2.12.2"
@@ -1554,12 +1554,17 @@
     which "^1.3.0"
     xml2js "^0.4.19"
 
-"@capacitor/core@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-1.4.0.tgz#4f6a1fd501687f1819e7be673b528cc3e8f7ce97"
-  integrity sha512-9cLk6f8A2BjSh9KTItAOXGFSS9ZsVReMUACWw+1lEHsSk5kdPbp0oQ8c1kOX36LlHeBKi/EPSs8dXNedNHyHQA==
+"@capacitor/core@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-2.2.0.tgz#60f7b2126a5a223cb1ede055a65df6ad0d719f4b"
+  integrity sha512-ClxXjOUCF0wZpznZI6f6uXK2LLzWBx5Ly/g7Hqu8R8wNdaKYoh83eMuT+m5G1gfxhcALAAJNUhHccnCW3ohftg==
   dependencies:
     tslib "^1.9.0"
+
+"@capacitor/ios@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-2.2.0.tgz#e9fbf2cf1404fd08b251b7a63380f2ac199b912e"
+  integrity sha512-mMz09NG7PYygoAtPJEBRiCjANHRfFT5WcTrFxILRYsgrLct4LhZ7ejaj9En3NGCvwnTG/J+89U2nxxlw2WisOw==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"

@@ -1,10 +1,11 @@
 {
   "name": "spender",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@capacitor/android": "^1.4.0",
-    "@capacitor/core": "1.4.0",
+    "@capacitor/android": "^2.2.0",
+    "@capacitor/core": "^2.2.0",
+    "@capacitor/ios": "^2.2.0",
     "@ionic/react": "^5.2.2",
     "@ionic/react-router": "^5.2.2",
     "@types/jest": "^24.0.23",
@@ -44,7 +45,7 @@
   },
   "description": "An Ionic project",
   "devDependencies": {
-    "@capacitor/cli": "1.4.0",
+    "@capacitor/cli": "^2.2.0",
     "tslint": "^5.20.1",
     "tslint-react": "^4.1.0"
   }

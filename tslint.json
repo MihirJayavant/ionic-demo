@@ -1,6 +1,6 @@
 {
   "extends": ["tslint-react"],
   "rules": {
-    "react-hooks/exhaustive-deps": "off"
+    "exhaustive-deps": "off"
   }
 }
